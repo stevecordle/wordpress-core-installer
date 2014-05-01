@@ -31,7 +31,7 @@ class WordPressCoreInstaller extends LibraryInstaller {
 			$installationDir = $extra['wordpress-install-dir'];
 		}
 		if ( ! $installationDir ) {
-			$installationDir = '.';
+			$installationDir = 'wordpress';
 		}
 		if (
 			! empty( self::$_installedPaths[$installationDir] ) &&
